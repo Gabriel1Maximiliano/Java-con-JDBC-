@@ -10,6 +10,7 @@ public class TestManejoPersonas {
     public static void main(String[] args) {
         PersonaDAO personaDAO = new PersonaDAO();
         // nuevo cambio en main
+        // mas comnetarios
         
         List<Persona> personas = personaDAO.seleccionar();
         
