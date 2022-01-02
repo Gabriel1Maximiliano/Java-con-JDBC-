@@ -9,6 +9,7 @@ public class TestManejoPersonas {
     
     public static void main(String[] args) {
         PersonaDAO personaDAO = new PersonaDAO();
+        // nuevo cambio en main
         
         List<Persona> personas = personaDAO.seleccionar();
         
